@@ -1,3 +1,11 @@
+# NOTE FROM BLU DIGITAL
+
+We appreciate all of the hard work that has gone into this package, unfortunately
+it leverages Node.JS's global stream and as our internal projects have shifted
+to leveraging Vite, this package (as a downstream dependency of ImscJS) needed to
+be tweaked slightly.  The package developer has previously closed other PR's
+with this same suggested solution so we're forking and handling it for ourselves. 
+
 # sax js
 
 A sax-style parser for XML and HTML.
